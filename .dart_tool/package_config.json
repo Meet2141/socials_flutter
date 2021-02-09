@@ -38,6 +38,30 @@
       "languageVersion": "2.10"
     },
     {
+      "name": "connectivity",
+      "rootUri": "file:///Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/connectivity-2.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "connectivity_for_web",
+      "rootUri": "file:///Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/connectivity_for_web-0.3.1+4",
+      "packageUri": "lib/",
+      "languageVersion": "2.6"
+    },
+    {
+      "name": "connectivity_macos",
+      "rootUri": "file:///Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/connectivity_macos-0.1.0+7",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
+      "name": "connectivity_platform_interface",
+      "rootUri": "file:///Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/connectivity_platform_interface-1.0.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
       "name": "cupertino_icons",
       "rootUri": "file:///Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-1.0.0",
       "packageUri": "lib/",
@@ -51,25 +75,25 @@
     },
     {
       "name": "firebase_core",
-      "rootUri": "file:///Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.5.3",
+      "rootUri": "file:///Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.7.0",
       "packageUri": "lib/",
       "languageVersion": "2.1"
     },
     {
       "name": "firebase_core_platform_interface",
-      "rootUri": "file:///Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core_platform_interface-2.1.0",
+      "rootUri": "file:///Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core_platform_interface-3.0.1",
       "packageUri": "lib/",
       "languageVersion": "2.1"
     },
     {
       "name": "firebase_core_web",
-      "rootUri": "file:///Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-0.2.1+1",
+      "rootUri": "file:///Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-0.2.1+3",
       "packageUri": "lib/",
       "languageVersion": "2.1"
     },
     {
       "name": "firebase_dynamic_links",
-      "rootUri": "file:///Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_dynamic_links-0.6.3",
+      "rootUri": "file:///Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_dynamic_links-0.7.0+1",
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
@@ -78,6 +102,12 @@
       "rootUri": "file:///Users/stackappinfotech/Documents/flutter/packages/flutter",
       "packageUri": "lib/",
       "languageVersion": "2.10"
+    },
+    {
+      "name": "flutter_facebook_login",
+      "rootUri": "file:///Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_facebook_login-3.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
     },
     {
       "name": "flutter_test",
@@ -110,6 +140,18 @@
       "languageVersion": "2.6"
     },
     {
+      "name": "http",
+      "rootUri": "file:///Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/http-0.12.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.4"
+    },
+    {
+      "name": "http_parser",
+      "rootUri": "file:///Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/http_parser-3.1.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.3"
+    },
+    {
       "name": "js",
       "rootUri": "file:///Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/js-0.6.2",
       "packageUri": "lib/",
@@ -138,6 +180,12 @@
       "rootUri": "file:///Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/path-1.8.0-nullsafety.1",
       "packageUri": "lib/",
       "languageVersion": "2.10"
+    },
+    {
+      "name": "pedantic",
+      "rootUri": "file:///Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/pedantic-1.9.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
     },
     {
       "name": "plugin_platform_interface",
@@ -218,7 +266,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2021-02-09T06:39:21.495837Z",
+  "generated": "2021-02-09T10:07:22.888841Z",
   "generator": "pub",
   "generatorVersion": "2.10.5"
 }

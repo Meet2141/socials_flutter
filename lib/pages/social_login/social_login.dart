@@ -12,6 +12,7 @@ class SocialLoginScreenState extends State<SocialLoginScreen> {
   @override
   Widget build(BuildContext context) {
     print("runtimeType -> " + runtimeType.toString());
+
     model ?? (model = SocialLoginViewModel(this));
     return Scaffold(
       appBar: AppBar(
@@ -39,7 +40,7 @@ class SocialLoginScreenState extends State<SocialLoginScreen> {
 
   googleSignInButton() {
     return InkWell(
-      onTap: (){
+      onTap: () {
         model.gSignIn();
       },
       child: Card(
@@ -60,6 +61,7 @@ class SocialLoginScreenState extends State<SocialLoginScreen> {
 
   facebookSignInButton() {
     return InkWell(
+      onTap: model.fbSignIn,
       child: Card(
         color: Colors.white,
         elevation: 1.0,

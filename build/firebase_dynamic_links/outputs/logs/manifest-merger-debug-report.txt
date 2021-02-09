@@ -1,35 +1,35 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_dynamic_links-0.6.3/android/src/main/AndroidManifest.xml:1:1-11:12
-INJECTED from /Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_dynamic_links-0.6.3/android/src/main/AndroidManifest.xml:1:1-11:12
-INJECTED from /Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_dynamic_links-0.6.3/android/src/main/AndroidManifest.xml:1:1-11:12
+ADDED from /Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_dynamic_links-0.7.0+1/android/src/main/AndroidManifest.xml:1:1-11:12
+INJECTED from /Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_dynamic_links-0.7.0+1/android/src/main/AndroidManifest.xml:1:1-11:12
+INJECTED from /Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_dynamic_links-0.7.0+1/android/src/main/AndroidManifest.xml:1:1-11:12
 	package
-		ADDED from /Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_dynamic_links-0.6.3/android/src/main/AndroidManifest.xml:2:3-52
-		INJECTED from /Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_dynamic_links-0.6.3/android/src/main/AndroidManifest.xml
-		INJECTED from /Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_dynamic_links-0.6.3/android/src/main/AndroidManifest.xml
+		ADDED from /Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_dynamic_links-0.7.0+1/android/src/main/AndroidManifest.xml:2:3-52
+		INJECTED from /Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_dynamic_links-0.7.0+1/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_dynamic_links-0.7.0+1/android/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_dynamic_links-0.6.3/android/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_dynamic_links-0.7.0+1/android/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_dynamic_links-0.6.3/android/src/main/AndroidManifest.xml:4:3-65
+ADDED from /Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_dynamic_links-0.7.0+1/android/src/main/AndroidManifest.xml:4:3-65
 	android:name
-		ADDED from /Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_dynamic_links-0.6.3/android/src/main/AndroidManifest.xml:4:20-62
+		ADDED from /Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_dynamic_links-0.7.0+1/android/src/main/AndroidManifest.xml:4:20-62
 application
-ADDED from /Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_dynamic_links-0.6.3/android/src/main/AndroidManifest.xml:5:3-10:17
+ADDED from /Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_dynamic_links-0.7.0+1/android/src/main/AndroidManifest.xml:5:3-10:17
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from /Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_dynamic_links-0.6.3/android/src/main/AndroidManifest.xml:6:5-9:15
+ADDED from /Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_dynamic_links-0.7.0+1/android/src/main/AndroidManifest.xml:6:5-9:15
 	android:name
-		ADDED from /Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_dynamic_links-0.6.3/android/src/main/AndroidManifest.xml:6:14-85
+		ADDED from /Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_dynamic_links-0.7.0+1/android/src/main/AndroidManifest.xml:6:14-85
 meta-data#com.google.firebase.components:io.flutter.plugins.firebasedynamiclinks.FlutterFirebaseAppRegistrar
-ADDED from /Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_dynamic_links-0.6.3/android/src/main/AndroidManifest.xml:7:7-8:86
+ADDED from /Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_dynamic_links-0.7.0+1/android/src/main/AndroidManifest.xml:7:7-8:86
 	android:value
-		ADDED from /Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_dynamic_links-0.6.3/android/src/main/AndroidManifest.xml:8:18-83
+		ADDED from /Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_dynamic_links-0.7.0+1/android/src/main/AndroidManifest.xml:8:18-83
 	android:name
-		ADDED from /Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_dynamic_links-0.6.3/android/src/main/AndroidManifest.xml:7:18-131
+		ADDED from /Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_dynamic_links-0.7.0+1/android/src/main/AndroidManifest.xml:7:18-131
 uses-sdk
-INJECTED from /Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_dynamic_links-0.6.3/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_dynamic_links-0.6.3/android/src/main/AndroidManifest.xml
-INJECTED from /Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_dynamic_links-0.6.3/android/src/main/AndroidManifest.xml
+INJECTED from /Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_dynamic_links-0.7.0+1/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_dynamic_links-0.7.0+1/android/src/main/AndroidManifest.xml
+INJECTED from /Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_dynamic_links-0.7.0+1/android/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_dynamic_links-0.6.3/android/src/main/AndroidManifest.xml
-		ADDED from /Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_dynamic_links-0.6.3/android/src/main/AndroidManifest.xml
-		INJECTED from /Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_dynamic_links-0.6.3/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_dynamic_links-0.7.0+1/android/src/main/AndroidManifest.xml
+		ADDED from /Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_dynamic_links-0.7.0+1/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/stackappinfotech/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_dynamic_links-0.7.0+1/android/src/main/AndroidManifest.xml

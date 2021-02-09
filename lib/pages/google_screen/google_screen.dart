@@ -13,6 +13,8 @@ class GoogleScreenState extends State<GoogleScreen> {
 
   @override
   Widget build(BuildContext context) {
+    print("runtimeType -> " + runtimeType.toString());
+
     return SafeArea(
       child: Scaffold(
         body: Container(
