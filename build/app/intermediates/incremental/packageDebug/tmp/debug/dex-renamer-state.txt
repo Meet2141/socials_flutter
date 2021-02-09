@@ -1,4 +1,7 @@
-#Tue Feb 09 11:27:06 IST 2021
+#Tue Feb 09 12:18:45 IST 2021
 base.0=/Users/stackappinfotech/Desktop/meet_demo/social_demo_flutter/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.1=classes2.dex
+renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
+base.1=/Users/stackappinfotech/Desktop/meet_demo/social_demo_flutter/build/app/intermediates/dex/debug/mergeDexDebug/out/classes2.dex
