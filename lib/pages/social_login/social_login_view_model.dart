@@ -2,8 +2,11 @@ import 'package:firebase_dynamic_links/firebase_dynamic_links.dart';
 import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:share/share.dart';
-import 'package:social_demo/pages/home_screen/home_screen.dart';
+import 'package:social_demo/pages/google_screen/google_screen.dart';
 import 'package:social_demo/pages/social_login/social_login.dart';
+
+List googleUser = [];
+List facebookUser = [];
 
 class SocialLoginViewModel {
   SocialLoginScreenState state;
@@ -20,12 +23,15 @@ class SocialLoginViewModel {
   );
 
   Future<void> gSignIn() async {
+    googleSignIn.signOut();
+    googleUser.clear();
     try {
       await googleSignIn.signIn().then((value) {
         print("Google SignIn User Details == $value");
         if (value.id != null) {
+          googleUser.add(value);
           Navigator.push(state.context,
-              MaterialPageRoute(builder: (context) => HomeScreen()));
+              MaterialPageRoute(builder: (context) => GoogleScreen()));
         }
       });
     } catch (error) {
