@@ -20,10 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de1f5ba3-bcd5-4f38-b9ad-1efa43f5c7db" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ios/Runner/Runner.entitlements" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Flutter/.last_build_id" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/.last_build_id" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/facebook_screen/facebook_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/facebook_screen/facebook_screen.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/pages/social_login/social_login_view_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/social_login/social_login_view_model.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pages/welcome_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/welcome_screen/welcome_screen.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,22 +108,22 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1324" height="170" key="GridCell.Tab.0.bottom" timestamp="1612934583168">
+    <state width="1324" height="304" key="GridCell.Tab.0.bottom" timestamp="1612949272414">
       <screen x="0" y="23" width="1366" height="697" />
     </state>
-    <state width="1324" height="170" key="GridCell.Tab.0.bottom/0.23.1366.697@0.23.1366.697" timestamp="1612934583168" />
-    <state width="1324" height="170" key="GridCell.Tab.0.center" timestamp="1612934583168">
+    <state width="1324" height="304" key="GridCell.Tab.0.bottom/0.23.1366.697@0.23.1366.697" timestamp="1612949272414" />
+    <state width="1324" height="304" key="GridCell.Tab.0.center" timestamp="1612949272413">
       <screen x="0" y="23" width="1366" height="697" />
     </state>
-    <state width="1324" height="170" key="GridCell.Tab.0.center/0.23.1366.697@0.23.1366.697" timestamp="1612934583168" />
-    <state width="1324" height="170" key="GridCell.Tab.0.left" timestamp="1612934583167">
+    <state width="1324" height="304" key="GridCell.Tab.0.center/0.23.1366.697@0.23.1366.697" timestamp="1612949272413" />
+    <state width="1324" height="304" key="GridCell.Tab.0.left" timestamp="1612949272413">
       <screen x="0" y="23" width="1366" height="697" />
     </state>
-    <state width="1324" height="170" key="GridCell.Tab.0.left/0.23.1366.697@0.23.1366.697" timestamp="1612934583167" />
-    <state width="1324" height="170" key="GridCell.Tab.0.right" timestamp="1612934583168">
+    <state width="1324" height="304" key="GridCell.Tab.0.left/0.23.1366.697@0.23.1366.697" timestamp="1612949272413" />
+    <state width="1324" height="304" key="GridCell.Tab.0.right" timestamp="1612949272414">
       <screen x="0" y="23" width="1366" height="697" />
     </state>
-    <state width="1324" height="170" key="GridCell.Tab.0.right/0.23.1366.697@0.23.1366.697" timestamp="1612934583168" />
+    <state width="1324" height="304" key="GridCell.Tab.0.right/0.23.1366.697@0.23.1366.697" timestamp="1612949272414" />
     <state x="375" y="126" width="615" height="490" key="find.popup" timestamp="1612852388496">
       <screen x="0" y="23" width="1366" height="697" />
     </state>

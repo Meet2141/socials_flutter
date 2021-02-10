@@ -20,6 +20,7 @@ class FacebookScreenState extends State<FacebookScreen> {
         body: Container(
           alignment: Alignment.center,
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               Text(
                 "Facebook User Detail",
@@ -32,10 +33,11 @@ class FacebookScreenState extends State<FacebookScreen> {
                   SizedBox(
                     height: 20,
                   ),
-                 // Text("Id: ${facebookUser[i].id}"),
-                 //  Text("Name: ${facebookUser[i].first_name}"),
-                 //  Text("Name: ${facebookUser[i].last_name}"),
-                 //  Text("Email: ${facebookUser[i].email}"),
+                  Text("Id : ${facebookUser["id"]}"),
+                  Text("FirstName : ${facebookUser["fname"]}"),
+                  Text("LastName : ${facebookUser["lname"]}"),
+                  Text("Name : ${facebookUser["name"]}"),
+                  Text("Email : ${facebookUser["email"]}"),
                   InkWell(
                     onTap: () {
                       facebookSignIn.logOut();

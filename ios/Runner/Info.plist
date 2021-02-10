@@ -18,8 +18,26 @@
 	<string>$(FLUTTER_BUILD_NAME)</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>Bundle Id</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.flutterdevs.test</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleVersion</key>
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<key>FirebaseDynamicLinksCustomDomains</key>
+	<array>
+		<string>https://example.com/promos</string>
+		<string>https://example.com/links/share</string>
+	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>
@@ -41,10 +59,31 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
-	<key>FirebaseDynamicLinksCustomDomains</key>
+	<key>CFBundleURLTypes</key>
     <array>
-      <string>https://example.com/promos</string>
-      <string>https://example.com/links/share</string>
+        <!--
+        <dict>
+        ... Some other CFBundleURLTypes definition.
+        </dict>
+        -->
+        <dict>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>fb469911644394634</string>
+            </array>
+        </dict>
+    </array>
+
+    <key>FacebookAppID</key>
+    <string>469911644394634</string>
+    <key>FacebookDisplayName</key>
+    <string>socialdemo</string>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+        <string>fbapi</string>
+        <string>fb-messenger-share-api</string>
+        <string>fbauth2</string>
+        <string>fbshareextension</string>
     </array>
 </dict>
 </plist>

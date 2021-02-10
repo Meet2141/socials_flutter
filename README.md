@@ -1,6 +1,6 @@
 # social_demo
 
-A new Flutter application.
+Application is consist of multiple demo like google signin, facebook login , dynamic link share
 
 ## Getting Started
 

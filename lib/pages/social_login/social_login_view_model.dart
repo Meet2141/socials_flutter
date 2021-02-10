@@ -12,7 +12,8 @@ import 'package:social_demo/pages/welcome_screen/welcome_screen.dart';
 import 'package:social_demo/util/util.dart';
 
 List googleUser = [];
-List facebookUser = [];
+Map facebookUser;
+int code = 1234;
 String referCode;
 
 class SocialLoginViewModel {
@@ -66,10 +67,15 @@ class SocialLoginViewModel {
             'https://graph.facebook.com/v2.12/me?fields=name,first_name,last_name,email&access_token=${accessToken.token}';
         Map<String, dynamic> response = await getFacebookDetails(url);
         print("Facebook Login Success = $response");
-        facebookUser.add(response);
+        facebookUser = {
+          "id": response["id"],
+          "name": response["name"],
+          "email": response["email"],
+          "fname": response["first_name"],
+          "lname": response["last_name"],
+        };
         await Navigator.push(state.context,
             MaterialPageRoute(builder: (context) => FacebookScreen()));
-
         break;
       case FacebookLoginStatus.cancelledByUser:
         print('Login cancelled by the user.');
@@ -80,8 +86,6 @@ class SocialLoginViewModel {
         break;
     }
   }
-
-  int code = 1234;
 
   // dynamic link share
   void generateDynamicLink() async {
