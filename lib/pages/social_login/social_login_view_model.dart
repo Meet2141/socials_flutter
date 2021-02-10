@@ -8,7 +8,7 @@ import 'package:share/share.dart';
 import 'package:social_demo/pages/facebook_screen/facebook_screen.dart';
 import 'package:social_demo/pages/google_screen/google_screen.dart';
 import 'package:social_demo/pages/social_login/social_login.dart';
-import 'package:social_demo/pages/welcome_screen.dart';
+import 'package:social_demo/pages/welcome_screen/welcome_screen.dart';
 import 'package:social_demo/util/util.dart';
 
 List googleUser = [];
@@ -127,6 +127,7 @@ class SocialLoginViewModel {
       if (deepLink != null) {
         print("User code========  ${deepLink.toString().split('=').last}");
         referCode = deepLink.toString().split('=').last;
+        // Navigator.pushNamed(context, deepLink.path);
         Navigator.push(
             context, MaterialPageRoute(builder: (context) => WelcomeScreen()));
       }
@@ -141,6 +142,7 @@ class SocialLoginViewModel {
 
     if (deepLink != null) {
       print("=============");
+      // Navigator.pushNamed(context, deepLink.path);
       Navigator.push(
           context, MaterialPageRoute(builder: (context) => WelcomeScreen()));
     }

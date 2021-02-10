@@ -12,7 +12,7 @@ class WelcomeScreenState extends State<WelcomeScreen> {
     return Scaffold(
         body: Container(
       child: Center(
-        child: Text("Welcome $referCode"),
+        child: Text("Welcome refer code $referCode"),
       ),
     ));
   }
