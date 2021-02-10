@@ -8,16 +8,19 @@ import 'package:share/share.dart';
 import 'package:social_demo/pages/facebook_screen/facebook_screen.dart';
 import 'package:social_demo/pages/google_screen/google_screen.dart';
 import 'package:social_demo/pages/social_login/social_login.dart';
+import 'package:social_demo/pages/welcome_screen.dart';
 import 'package:social_demo/util/util.dart';
 
 List googleUser = [];
 List facebookUser = [];
+String referCode;
 
 class SocialLoginViewModel {
   SocialLoginScreenState state;
 
   SocialLoginViewModel(SocialLoginScreenState state) {
     this.state = state;
+    initDynamicLinks(state.context);
   }
 
   final FacebookLogin facebookSignIn = new FacebookLogin();
@@ -64,9 +67,8 @@ class SocialLoginViewModel {
         Map<String, dynamic> response = await getFacebookDetails(url);
         print("Facebook Login Success = $response");
         facebookUser.add(response);
-          await Navigator.push(state.context,
-              MaterialPageRoute(builder: (context) => FacebookScreen()));
-
+        await Navigator.push(state.context,
+            MaterialPageRoute(builder: (context) => FacebookScreen()));
 
         break;
       case FacebookLoginStatus.cancelledByUser:
@@ -79,10 +81,13 @@ class SocialLoginViewModel {
     }
   }
 
+  int code = 1234;
+
+  // dynamic link share
   void generateDynamicLink() async {
     final DynamicLinkParameters parameters = DynamicLinkParameters(
       uriPrefix: 'https://socialdemo.page.link',
-      link: Uri.parse('https://socialdemo.page.link/invitefriend=1}'),
+      link: Uri.parse('https://socialdemo.page.link/invitefriend=$code'),
       androidParameters: AndroidParameters(
         packageName: 'com.example.socialdemo',
         minimumVersion: 1,
@@ -111,5 +116,33 @@ class SocialLoginViewModel {
     print(dynamicUrl);
 
     Share.share('Social Login $shortUrl');
+  }
+
+  // link open and user refer code get
+  void initDynamicLinks(BuildContext context) async {
+    FirebaseDynamicLinks.instance.onLink(
+        onSuccess: (PendingDynamicLinkData dynamicLink) async {
+      final Uri deepLink = dynamicLink?.link;
+
+      if (deepLink != null) {
+        print("User code========  ${deepLink.toString().split('=').last}");
+        referCode = deepLink.toString().split('=').last;
+        Navigator.push(
+            context, MaterialPageRoute(builder: (context) => WelcomeScreen()));
+      }
+    }, onError: (OnLinkErrorException e) async {
+      print('onLinkError');
+      print(e.message);
+    });
+
+    final PendingDynamicLinkData data =
+        await FirebaseDynamicLinks.instance.getInitialLink();
+    final Uri deepLink = data?.link;
+
+    if (deepLink != null) {
+      print("=============");
+      Navigator.push(
+          context, MaterialPageRoute(builder: (context) => WelcomeScreen()));
+    }
   }
 }

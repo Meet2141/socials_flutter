@@ -30,6 +30,7 @@ dependencies:
   cupertino_icons: ^1.0.0
   firebase_dynamic_links: ^0.7.0+1
   share: ^0.6.5+4
+  firebase_analytics: ^7.0.1
   google_sign_in: ^4.5.9
   flutter_facebook_login: ^3.0.0
   http: ^0.12.2
